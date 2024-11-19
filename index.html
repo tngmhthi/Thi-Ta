@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Thi Ta</title>
+
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background: rgb(34,193,195);
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+      min-height: 100vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #name {
+      color: black;
+      font-weight: 500;
+    }
+
+    #title {
+      color: darkgray;
+      font-size: 25px;
+    }
+
+    #linkedin {
+      color: gray;
+      font-size: 30px;
+    }
+
+    #container {
+      background-color: white;
+      width: 400px;
+      max-width: 80vw;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+    }
+    #container:hover {
+      transform: scale(1.5);
+      transition: 0.2s;
+    }
+
+    .section {
+
+    }
+
+    #top-section {
+      height: 200px;
+      background-image: url("https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBoYXJtYWN5fGVufDB8fDB8fHww");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #bottom-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="top-section">
+    </div>
+    <div id="bottom-section">
+      <h1 id="name">Thi Ta</h1>
+      <h2 id="title">Pharmacy Intern</h2>
+      <a id="linkedin" href="https://www.linkedin.com/in/tngmhthi/"
+        target="_blank"
+        ><i class="fa fa-linkedin-square"></i></a>
+    </div>
+  </div>
+</body>
+</html>
